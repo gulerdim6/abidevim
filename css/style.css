@@ -1,3 +1,16 @@
 body{
     background-color:greenyellow
  }
+
+ html.body{
+
+    margin: 0
+    paddinhg: 0;
+
+ }
+ header{
+text-align: center;
+background-color: rgb(146, 45, 87);
+padding: 20px;
+
+ }
