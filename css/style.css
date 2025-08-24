@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+25&family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+
 body{
     background-color:greenyellow
  }
@@ -10,7 +14,24 @@ body{
  }
  header{
 text-align: center;
-background-color: rgb(146, 45, 87);
+background-color:purple;
 padding: 20px;
 
  }
+
+ header img{
+    width: 300px
+    heiht: 300px;
+    border: 20px solid white;
+    border-radius:50½;
+ }
+
+header h1 {
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
