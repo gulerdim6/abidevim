@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+25&family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Jacquard+24&family=Jersey+25&family=Pixelify+Sans:wght@400..700&display=swap');
+
+
 
 
 
@@ -12,6 +14,7 @@ body{
     paddinhg: 0;
 
  }
+
  header{
 text-align: center;
 background-color:purple;
@@ -23,14 +26,20 @@ padding: 20px;
     width: 300px
     heiht: 300px;
     border: 20px solid white;
-    border-radius:50½;
+    border: radius 50%;;
  }
 
-header h1 {
-  font-family: "Jacquard 24", system-ui;
+header h1{
+   font-family: "Indie Flower", cursive;
   font-weight: 400;
   font-style: normal;
+  font-size: 70px;
+  margin: 10px 0 20px 0;
+  color: greenyellow;
 }
+
+
+
 
 
 
