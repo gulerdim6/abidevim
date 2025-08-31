@@ -3,7 +3,7 @@
 
 
 body{
-    background-color:greenyellow
+    background-color:black;
  }
 
  html.body{
@@ -20,11 +20,12 @@ padding: 20px;
 
  }
 
- header .pfp{
+ header img{
     width: 300px;
     height: 300px;
+    border: 20px solid white;
     border-radius: 50%;
-    background-image: url('./../img/temple.jpg');
+    
 
  }
 
@@ -34,7 +35,7 @@ header h1{
   font-style: normal;
   font-size: 70px;
   margin: 10px 0 20px 0;
-  color: greenyellow;
+  color: white
 }
 
 
