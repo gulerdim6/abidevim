@@ -2,8 +2,6 @@
 
 
 
-
-
 body{
     font-family:"pixelify sans", sans-serif;
     background-color: plum;
@@ -48,7 +46,6 @@ body{
       color:aquamarine;
    }
    
-
  p.caption{
    font-size: 16px;
    color:wheat
@@ -63,10 +60,7 @@ padding: 30px;
 width: 100%;
 margin:0;
 
-
  }
-
-
 
  header img{
     width: 300px;
@@ -74,28 +68,30 @@ margin:0;
     border: 20px solid white;
     border-radius: 50%;
     
-
  }
 
  h1{
-   font-family: "Indie Flower", cursive;
+   font-family: "indie flower", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 70px;
+  font-size: clamp(32px, 8vw,70px);
   margin: 0px 0 20px 0;
   color: white
  }
 
 h2{
-     font-family: "Indie Flower", cursive;
+   font-family: "indie flower", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
   margin: 0px 0 20px 0;
- 
 
   }
+
+
 @media (max-width: 600px){
+  
+   }
    h2{
       font: size 40px;
 
@@ -116,6 +112,7 @@ main{
 main img{
    max-width: 100%;
 }
+
 /*footer styles*/
 footer{
    background-color: peru;
@@ -123,18 +120,29 @@ footer{
    text-align:center;
    margin: top 40px;
 }
+
 footer.content{
    max-width: 800px;
    margin: 0 auto;
    padding;0 20px;
 }
+
 footer a,
 footer a:visited{
    color:green
 }
+
 footer a: :hover{
    color: purple;
 }
+
+@media (max-width:600px){
+   footer p{
+      font-size:16px
+   }
+}
+
+
 
 
 
