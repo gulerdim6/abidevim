@@ -79,6 +79,21 @@ margin:0 ;
     margin: 0 auto;
  }
 
+ header .pfp.hekate{
+     background-image: url("./../img/hekate.webp");
+        background-position:top center;
+      background-size: cover;
+      border-color: black;
+ }
+
+  header .pfp.selene{
+     background-image: url("./../img/selene.jpg");
+        background-position:center;
+      background-size: cover;
+      border-color: pink;
+ }
+
+
  h1{
    font-family: "indie flower", cursive;
   font-weight: 400;
